@@ -14,9 +14,8 @@
    <title>Document</title>
 </head>
 <body>
-   <div class="container">
-    <div style="height: 100vh;background-image:url(font1.png); background-repeat: no-repeat; background-size: cover;">
-    <nav class="navbar navbar-light bg-light">
+   <div class="container-fluid ">
+    <nav class="container navbar navbar-light ">
       <div class="container-fluid">
         <a class="navbar-brand text-primary">LOGO</a>
         <ul class="nav justify-content-end  ">
@@ -33,31 +32,41 @@
 
       </div>
     </nav>
+    <div style="height: 100vh;background-image:url(images/Header\ bg.png); background-repeat: no-repeat; background-size: cover;">
+    
 
-    <div class="mt-5 mx-5" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0" >
-      <h2 id="scrollspyHeading1"> I'm Massa Zoumanigui <br> Glad to see you</h2>
-      <p>I’m a software developer! I can help you build a product , feature or website Look through 
-        some of my work and experience! If you like what you see and have a project you need 
-        coded, don’t hestiate to contact me</p>
-    </div>
-   
-    <div>
-      <div><h2 class=" mx-5"><a href="#" style="font-size: medium; text-decoration: none; font-weight:fw-bolder">LET'S CONNECT</a></h2></div>
-    </div>
-
-<!--icons-->
+  <div class="row">
+    <div class="col-2"></div>
+<div class="col-8">
+  <div class="mt-5 mx-5" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0" >
+    <h2 id="scrollspyHeading1 " class="fs-1 fw-bolder"> I'm Massa Zoumanigui <br> Glad to see you</h2>
+    <p class="fs-4 ">I’m a software developer! I can help you build a product , feature or website Look through 
+      some of my work and experience! If you like what you see and have a project you need 
+      coded, don’t hestiate to contact me</p>
+  </div>
+ 
+  <div>
+    <div><h2 class=" mx-5"><a href="#" style="font-size: medium; text-decoration: none; font-weight:fw-bolder">LET'S CONNECT</a></h2></div>
+  </div>
+  <!--icons-->
 
  <div class="mx-5">
-        <i class="bi bi-twitter px-1"></i>   
-        <i class="bi bi-linkedin  px-1"></i>
-        <i class="bi bi-facebook  px-1"></i>
-        <i class="bi bi-github  px-1"></i>   
-        <i class="bi bi-twitter  px-1" ></i> 
-      </div>
+  <i class="bi bi-twitter px-1"></i>   
+  <i class="bi bi-linkedin  px-1"></i>
+  <i class="bi bi-facebook  px-1"></i>
+  <i class="bi bi-github  px-1"></i>   
+  <i class="bi bi-twitter  px-1" ></i> 
+</div>
 
 </div>
+</div>
+    <div class="col-2"></div>
+
+  </div>
+
+
 <!-- card starts here -->
-<section >
+<main class="container"><section >
   <div class="card mb-3 vh-80">
   <div class="row g-0">
     <div class="col-md-6 ">
@@ -142,7 +151,7 @@
 <div class="card mb-3 vh-80">
   <div class="row g-0">
    
-    <div class="col-md-6">
+    <div class="col-md-6 ">
       <div class="card-body">
         <h5 class="card-title mt-5 fw-bolder fs-1 f">Uber Navigation</h5>
         <ul class="d-flex justify-content-start p-0 ">
@@ -200,8 +209,29 @@
 
 
   <div class="col-6">
-
+<div class="ms-5 mb-5"> 
+  <div class="d-flex justify-content-between mb-3"><h3>Languages</h3> <img src="./images/Union Down.svg" alt=""> </div> 
+  <div class="d-flex justify-content-start">
+    <div class="me-4 bg-light pe-5">
+      <img src="./images/Ellipse JavaScript.svg" alt="">
+      <p>JavaScript</p>
+    </div>
+    <div class="me-4 bg-light pe-5">
+        <img src="./images/Ellipse CSS3.svg" alt="">  
+        <p>CSS</p>
+    </div>
+    <div class="me-4 bg-light pe-5">
+      <img src="./images/Ellipse HTML5.svg" alt="">
+      <p>HTML</p>
+    </div>
   </div>
+  </div>
+
+<div class="ms-5 " > <div class="d-flex justify-content-between"><h3>Frameworks</h3> <img src="./images/Union Left.svg" alt=""> </div> </div>
+<img src="./images/Separator Bottom.png" alt="">
+<div class="ms-5" > <div class="d-flex justify-content-between"><h3>Skills</h3> <img src="./images/Union Left.svg" alt=""> </div> </div>
+<img src="./images/Separator Bottom.png" alt="">
+</div>
 </div>
 </div>
 
@@ -211,7 +241,7 @@
 <div class="row   border border-light  form">
 <div class="col-3">
 </div>
-<div class="col-6">
+<div class="col-6 ">
   
   <form class="container mt-5 ps-5 " >
     <h3 class="mt-5">Contact me</h3>
@@ -225,8 +255,8 @@
       </div>
     
     
-      <label for="exampleInputEmail1 " class="form-label">Email address</label>
-      <input type="email " class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <label for="exampleInputEmail " class="form-label">Email address</label>
+      <input type="email " class="form-control " id="exampleInputEmail">
     
       <button type="submit" class="btn btn-primary mt-3">Submit</button>
     
@@ -235,6 +265,8 @@
 <div class="col-3">
 </div>
 </div>
+</main>
+
 
 
 
